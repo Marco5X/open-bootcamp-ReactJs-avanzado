@@ -18,11 +18,5 @@ export const useCounter = () => {
         setValue(value + 5)
     }
   
-    return {
-      value, 
-      increment,
-      decrement,
-      reset,
-      increment5,
-    }
+    return { value, increment, decrement, reset, increment5 }
   }
